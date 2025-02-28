@@ -69,7 +69,41 @@
         <br/><br>
 
         <p>Please enter your favorite genre:</p>
-        <input type="radio" name="genre" value="">
+        <input type="radio" name="genre" value="itunes" checked="checked" /> ITunes
+        <input type="radio" name="genre" value="lastfm" /> Last.gm
+        <input type="radio" name="genre" value="spotify" /> Spotify
+
+        <br/><br>
+
+    <p>Text Area</p>
+    <textarea name="digita" cols="40" rows="3"></textarea>
+    
+        <br/><br>
+
+    <p>Dropdown List</p>
+
+    <select name="age">
+        <option value="1">-30</option>
+        <option value="2" selected>30-35</option>
+        <option value="3">35-40</option>
+        <option value="4">40-45</option>
+    </select>
+
+    <br/><br>
+
+    <p>Multichoice List</p>
+
+    <select name="age" multiple>
+        <option value="1">-30</option>
+        <option value="2" selected>30-35</option>
+        <option value="3">35-40</option>
+        <option value="4">40-45</option>
+        </select>
+
+    <br/><br>
+
+    <p>Hidden</p>
+    <inpu type="hidden" name="secret" value="nosecret" />
     </form>
 </body>
 </html>
